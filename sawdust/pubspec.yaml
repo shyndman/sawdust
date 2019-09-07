@@ -1,0 +1,17 @@
+name: sawdust
+description: Filler text generator for Dart
+version: 1.0.0
+author: Scott Hyndman <scott@yarrow.com>
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dev_dependencies:
+  build_runner: ^1.4.0
+  pedantic: ^1.7.0
+  sawdust_codegen: ^1.0.0
+  test: ^1.6.0
+
+dependency_overrides:
+  sawdust_codegen:
+    path: ../sawdust_codegen
